@@ -1,9 +1,4 @@
-# Ultroid - UserBot
-# Copyright (C) 2021 TeamUltroid
-#
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# Sakura - UserBot
 
 """ Imports Folder """
 
@@ -18,12 +13,12 @@ from pyrogram import Client, filters
 from pyrogram.raw import functions
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pytgcalls import StreamType
-from pyUltroid import HNDLR, CallsClient
-from pyUltroid import asst as tele_asst
-from pyUltroid import udB, ultroid_bot
-from pyUltroid import vcasst as asst
-from pyUltroid.functions.all import bash, dler, time_formatter
-from pyUltroid.misc import sudoers
+from pySakura import HNDLR, CallsClient
+from pySakura import asst as tele_asst
+from pySakura import udB, ultroid_bot
+from pySakura import vcasst as asst
+from pySakura.functions.all import bash, dler, time_formatter
+from pySakura.misc import sudoers
 from youtube_dl import YoutubeDL
 from youtubesearchpython import VideosSearch
 
